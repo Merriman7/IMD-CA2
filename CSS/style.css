@@ -1,0 +1,17 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: aqua;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.rotate {
+    transition: transform 0.5s ease-in-out;
+}
+
+.rotate.rotate-180 {
+    transform: rotate(180deg);
+}
